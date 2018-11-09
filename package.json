@@ -1,0 +1,22 @@
+{
+  "name": "episode-1__stile",
+  "version": "1.0.0",
+  "description": "Repo for the first episode of Developer Shootout",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node-sass css/main.scss css/output.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperShootout/Episode-1__Stile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeveloperShootout/Episode-1__Stile/issues"
+  },
+  "homepage": "https://github.com/DeveloperShootout/Episode-1__Stile#readme",
+  "devDependencies": {
+    "node-sass": "^4.10.0"
+  }
+}
