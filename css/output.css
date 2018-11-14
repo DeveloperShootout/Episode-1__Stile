@@ -6,4 +6,17 @@
   padding: 0; }
 
 body {
+  color: var(--c-grey-dark);
   font-family: 'Rubik', sans-serif; }
+
+:root {
+  --c-primary: hsl(38, 84%, 86%);
+  --c-primary-dark: hsl(38, 69%, 75%);
+  --c-grey-lightest: hsl(0, 0%, 96%);
+  --c-grey-lighter: hsl(228, 9%, 89%);
+  --c-grey-light: hsl(48, 7%, 87%);
+  --c-grey-medium: hsl(300, 1%, 78%);
+  --c-grey-social: hsl(224, 13%, 78%);
+  --c-grey-copyright: hsl(236, 7%, 64%);
+  --c-grey-dark: hsl(228, 4%, 25%);
+  --c-grey-darker: hsl(220, 3%, 18%); }
