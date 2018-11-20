@@ -4,7 +4,7 @@
   "description": "Repo for the first episode of Developer Shootout",
   "main": "index.js",
   "scripts": {
-    "dev": "node-sass css/main.scss css/output.css -w"
+    "dev": "sass-watch css/main.scss css/output.css"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,6 @@
   "homepage": "https://github.com/DeveloperShootout/Episode-1__Stile#readme",
   "devDependencies": {
     "node-sass": "^4.10.0"
-  }
+  },
+  "dependencies": {}
 }

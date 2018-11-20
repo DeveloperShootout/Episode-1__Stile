@@ -1,0 +1,60 @@
+.hero {
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(to right, transparent 50%, var(--c-primary) 50%);
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: 120px;
+
+	&__left {
+		width: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin-top: -90px;
+		margin-left: 40px;
+	}
+
+	&__w-title {
+		font-size: 85px;
+		letter-spacing: 8px;
+	}
+
+	&__w-sub {
+		margin-bottom: 40px;
+	}
+
+	&__price {
+		display: flex;
+		align-items: center;
+		margin-bottom: 70px;
+		font-weight: 500;
+		font-size: 32px;
+
+		span {
+			margin-left: 16px;
+			font-size: 16px;
+			opacity: 0.4;
+			text-decoration: line-through;
+		}
+	}
+
+	&__img {
+		width: 35%;
+		margin-left: -8%;
+	}
+
+	.button {
+		padding: 30px 48px;
+
+		&:not(.button-alt) {
+			font-weight: 500;
+		}
+
+		&:not(:last-child) {
+			margin-right: 16px;
+		}
+	}
+}

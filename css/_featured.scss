@@ -1,0 +1,46 @@
+.featured {
+	display: flex;
+
+	&__single {
+		position: relative;
+		width: 33.333%;
+		text-align: center;
+		padding: 60px;
+		border: 1px solid var(--c-grey-lighter);
+
+		&:not(:first-child) {
+			border-left: none;
+		}
+	}
+
+	&__sale {
+		position: absolute;
+		left: 0;
+		top: 150px;
+		display: inline-block;
+		background-color: var(--c-grey-dark);
+		color: white;
+		padding: 8px 24px;
+		transform-origin: top left;
+		transform: rotate(-90deg);
+		font-weight: 500;
+		letter-spacing: 3px;
+	}
+
+	&__title {
+		font-size: 24px;
+		letter-spacing: 3px;
+		font-weight: 500;
+		margin-bottom: 8px;
+	}
+
+	&__sub {
+		font-size: 14px;
+		margin-bottom: 32px;
+	}
+
+	&__price {
+		font-weight: 500;
+		font-size: 22px;
+	}
+}

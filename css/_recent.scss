@@ -1,0 +1,39 @@
+.recent {
+	position: relative;
+	padding: 100px 0;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 45%;
+		height: 80%;
+		background-color: var(--c-primary);
+	}
+	
+	.wrapper {
+		position: relative;
+		display: flex;
+		align-items: flex-start;
+	}
+	
+	&__content {
+		padding: 0 75px;
+		text-align: center;
+	}
+
+	.section-title {
+		margin: 16px 0 150px;
+	}
+	
+	p {
+		margin-bottom: 30px;
+	}
+
+	h2 {
+		font-size: 50px;
+		margin-bottom: 60px;
+		font-weight: 500;
+	}
+}
