@@ -10,3 +10,52 @@ body {
 	color: var(--c-grey-dark);
 	font-family: 'Rubik', sans-serif;
 }
+
+.button {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 20px 40px;
+	text-decoration: none;
+	background: var(--c-grey-darker);
+	color: white;
+	display: inline-block;
+	text-transform: uppercase;
+	transition: transform 0.2s, box-shadow 0.2s;
+
+	&:hover {
+		transform: scale(1.2);
+		box-shadow: 0 10px 20px rgba(0,0,0,0.4)
+	}
+
+	&--secondary {
+		text-transform: capitalize;
+		font-weight: 400;
+		background: var(--c-grey-light);
+		color: var(--c-grey-dark);
+	}
+
+	&--tertiary {
+		text-transform: capitalize;
+		border: 1px solid var(--c-grey-lighter);
+		font-weight: 400;
+		background: none;
+		color: var(--c-grey-dark);
+	}
+}
+
+.top-line {
+	width: 70px;
+	display: block;
+	border: 0;
+	height: 1px;
+	margin: 0 auto;
+	background: var(--c-grey-dark);
+}
+
+.top-title {
+	letter-spacing: 2px;
+	font-weight: 300;
+	margin-top: 16px;
+	text-align: center;
+	text-transform: uppercase;
+}

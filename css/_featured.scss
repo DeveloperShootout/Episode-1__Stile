@@ -1,0 +1,48 @@
+.featured {
+    display: flex;
+    
+    &__single {
+        position: relative;
+        padding: 60px 0;
+        flex: 1;
+        text-align: center;
+        border: 1px solid var(--c-grey-lighter);
+
+        &:not(:last-child) {
+            border-right: 0;
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 28px;
+        letter-spacing: 6px;
+        margin-bottom: 8px;
+    }
+
+    &__collection {
+        font-size: 14px;
+        margin-bottom: 32px;
+    }
+
+    &__price {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    &__sale {
+        transform: rotate(-90deg) translateY(-64%);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 14px;
+        position: absolute;
+        top: 18%;
+        left: 0;
+        padding: 8px 16px;
+        display: inline-block;
+        background: var(--c-grey-dark);
+        color: white;
+    }
+}

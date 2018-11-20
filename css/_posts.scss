@@ -1,0 +1,36 @@
+.posts {
+    display: flex;
+    align-items: center;
+}
+
+.posts-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    background: var(--c-primary);
+
+    img {
+        transform: translate(20%, 20%);
+    }
+}
+
+.posts-info {
+    flex: 1;
+    text-align: center;
+
+    &__subtitle {
+        margin-top: 100px;
+        margin-bottom: 8px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 50px;
+        margin-bottom: 80px;
+    }
+}
+
+.posts-wrap {
+    max-width: 400px;
+    margin: 0 auto;
+}
